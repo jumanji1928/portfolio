@@ -5,3 +5,9 @@
 .show{
  display: block; 
 }
+
+#navbar{
+ background-color: #898989;
+ color: #fff;
+}
+
