@@ -12,5 +12,6 @@ function showhidetabs(tab){
     document.getElementById(tab_ids[i]).classList.add("hide");
     if(tab_ids[i] == tab){
       document.getElementById(tab_ids[i]).classList.add("show");
+    }
   }
 }
