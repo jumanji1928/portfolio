@@ -1,2 +1,1 @@
-("#intro").addClass("show");
-("#project").addClass("hide");
+document.getElementById("intro").classList.add("hide")"
