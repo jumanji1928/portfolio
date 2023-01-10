@@ -1,2 +1,2 @@
-$("#intro").addClass("show");
-$("#project").addClass("hide");
+("#intro").addClass("show");
+("#project").addClass("hide");
