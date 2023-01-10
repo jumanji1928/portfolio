@@ -8,11 +8,10 @@
 
 #navbar{
  height: 100vh;
- background-color: #898989;
+ background-color: #555555;
  color: #fff;
 }
 
 #main-container{ 
- background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(67,188,213,1) 100%);
+ background: #898989;
 }
