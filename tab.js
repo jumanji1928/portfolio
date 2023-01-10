@@ -1,1 +1,1 @@
-document.getElementById("intro").classList.add("hide")"
+document.getElementById("intro").classList.add("hide");
