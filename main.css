@@ -18,7 +18,23 @@ color: #fff;
 }
 
 #main-container{ 
- background: #898989;
+ background: #000000;
+ animation-name: changetab;
+ animation-duration: 3s;
 }
 
-
+@keyframe changetab {
+ 0% {
+  background-color: rgba(255, 255, 255, 0.1);
+ }
+ 25% {
+  background-color: rgba(255, 255, 255, 0.4);
+ }
+ 50%{
+  background-color: rgba(255, 255, 255, 0.8);
+ }
+ 
+ 100%{
+  background-color: rgba(255, 255, 255, 1);
+ }
+}
