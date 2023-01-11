@@ -1,4 +1,9 @@
-const tab_ids = ["intro", "projects", "skills", "contact"];
+const tab_ids = ["contact", "skills", "projects", "intro"];
+const tab_title = ["Contact", "Skills", "Projects", "Intro"];
+
+for(let i=0; i<tab_ids.length; i++){
+document.getElementById("navbar_buttons").insertAdjacentHTML("afterbegin",'<button class="btn btn-dark" type="button" onclick="showhidetabs(`'+ tab_ids[i] + '`)">'+ tab_ids[i]+'</button>');
+}
 
 for (let i = 0; i < tab_ids.length; i++){
   if(tab_ids[i] != "intro"){
@@ -17,3 +22,5 @@ function showhidetabs(tab){
     }
   }
 }
+
+
