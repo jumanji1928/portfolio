@@ -14,9 +14,9 @@ for (let i = 0; i < tab_ids.length; i++){
 function showhidetabs(tab){
   console.log(tab);
   for(let i = 0; i < tab_ids.length; i++){
-    document.getElementById(tab_ids[i]).classList.remove("show");
+    document.getElementById(tab_ids[i]).classList.remove("shows");
     if(tab_ids[i] == tab){
-      document.getElementById(tab_ids[i]).classList.add("show");
+      document.getElementById(tab_ids[i]).classList.add("shows");
     }else {
       document.getElementById(tab_ids[i]).classList.add("hide");
     }
