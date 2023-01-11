@@ -9,7 +9,7 @@ button {
  display: none; 
 }
 
-.show{
+.shows{
  display: block; 
  height: 100vh;
  animation-name: changetab;
