@@ -1,6 +1,10 @@
 *{ 
 color: #fff;
 }
+button {
+ background-color: #722472
+}
+
 .hide{
  display: none; 
 }
@@ -22,8 +26,8 @@ color: #fff;
 
 #main-container{ 
  background: #000000;
-
 }
+
 
 @keyframes changetab {
  0% { opacity: 0; }
