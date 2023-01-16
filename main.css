@@ -1,6 +1,6 @@
-*{ 
+/* *{ 
 color: #fff;
-}
+} */
 button {
  background-color: #722472 !important;
 }
@@ -13,7 +13,7 @@ button {
  display: block; 
  height: 100vh;
  animation-name: changetab;
- animation-duration: 3s;
+ animation-duration: 1s;
 }
 
 #navbar{
@@ -25,9 +25,26 @@ button {
 }
 
 #main-container{ 
- background: #000000;
+ background: #a8a2a2;
+ color: #414141;
 }
 
+#intro {
+  line-height: 1.6;
+}
+
+#intro .intro p{
+  margin: 0px ;
+  padding: 0px;
+}
+
+#intro .intro{
+  margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #722472;
+}
 
 @keyframes changetab {
  0% { opacity: 0; }

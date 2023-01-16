@@ -1,8 +1,8 @@
-const tab_ids = ["contact", "skills", "projects", "intro"];
-const tab_title = ["Contact", "Skills", "Projects", "Intro"];
+const tab_ids = ["intro", "c_projects", "t_projects", "skills", "contact", ];
+const tab_title = ["Intro","Computer Science Projects", "Theater Projects", "Skills", "Contact"];
 
 for(let i=0; i<tab_ids.length; i++){
-document.getElementById("navbar_buttons").insertAdjacentHTML("afterbegin",'<button class="btn btn-dark" type="button" onclick="showhidetabs(`'+ tab_ids[i] + '`)">'+ tab_title[i]+'</button>');
+document.getElementById("navbar_buttons").insertAdjacentHTML("beforeend",'<button class="btn btn-dark" type="button" onclick="showhidetabs(`'+ tab_ids[i] + '`)">'+ tab_title[i]+'</button>');
 }
 
 for (let i = 0; i < tab_ids.length; i++){
