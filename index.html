@@ -1,10 +1,11 @@
 <html>
-
-<head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link href="main.css" rel="stylesheet">
-</head>
+<header>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+  </head>
+</header>
 
 <body>
   <div class="conatiner-fluid">
@@ -19,15 +20,7 @@
         <!--<h4>Content</h4>-->
         <!--Intro -->
         <div id="intro">
-          <div class="intro">
-            <p>Hello My Name is</p>
-            <h1 class="Name">Matthew Janczak</h1>
-            <p>I love to create user friendly interfaces for websites and applications!</p>
-          </div>
-          <hr>
-          <h3>About Me</h3>
-          <p>My name is Matthew but I also go by Matt or MJ. I went to the University of Wisconsin-Whitewater where I got my Bachelor's Degree in Computer Science. After I got my degree I started working at Dealer eProcess where I was a website support agent. After three years working at Dealer eProcess I moved to Thatcher Technology Group and started and currently working as a Configuration Specialist.</p>
-          <p></p>
+          <include src="/HTML/intro.html"></include>
         </div>
         <!-- Projects -->
         <div id="c_projects">
@@ -47,7 +40,11 @@
       </div>
     </div>
   </div>
-  <script src="tab.js"></script>
+  <footer>
+    <script src="tab.js"></script>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+
+  </footer>
 </body>
 
 </html>
